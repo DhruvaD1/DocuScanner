@@ -11,7 +11,7 @@ using namespace std;
 Mat imgOriginal, imgGray, imgBlur, imgCanny, imgThre, imgDil, imgErode, imgWarp, imgCrop;
 vector<Point> initialPoints,docPoints;
 float w = 420, h = 596;
- 
+  
 Mat preProcessing(Mat img)
 {
 	cvtColor(img, imgGray, COLOR_BGR2GRAY);
